@@ -1,2 +1,4 @@
 # CO2-Car-Timer
 A Python program made to time CO2 cars as they race against others in a drag race along a straight stretch of hallway.
+
+The program runs on a Raspberry Pi 3 Model B+ which has its GPIO pins hooked up to limit switches that trigger when the cars start and when each one reaches the end of the course. It uses these triggers to start and stop measuring the time using the onboard clock. Knowing the distance of the course, it then also reports the average speed of each car and which car won the race. It was used for a grade 9 technology course as our teacher asked me to make something to time the cars that we had worked on in the woodshop with in a race at the end of the semester. It was a tournament style race with everyone starting out in a bracket and the winners going on to the next level.
